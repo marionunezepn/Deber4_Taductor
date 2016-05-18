@@ -16,6 +16,8 @@ y el que acaba en Slytherin es Draco Malfoy, un chico que habia insultado a Ron.
 blob1 = TextBlob(text)
 blob1.tags
 blob1.noun_phrases
-for sentence in blob1.sentences:
-	print(sentence.sentiment.polarity)
-	print (blob1.translate (to = "en"))
+#Lineas inecesarias
+#for sentence in blob1.sentences:
+#	sentence.sentiment.polarity
+	#print(sentence.sentiment.polarity)
+print (blob1.translate (to = "en"))
